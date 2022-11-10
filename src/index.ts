@@ -7,5 +7,5 @@ app.get('/status', (req: Request, res: Response, next: NextFunction) => {
 });
 
 app.listen(3000, () => {
-  console.log('Ok on port 3000');
+  console.log('Ok!');
 });
